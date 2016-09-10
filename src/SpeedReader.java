@@ -26,7 +26,7 @@ public class SpeedReader {
 	    	g.setColor(Color.black);
 	    	g.drawString(s, (width/2)-(sW/2), height/2-20);	
 	    	
-	    	Thread.sleep(60000/wpm   *wpm/60);
+	    	Thread.sleep(60000/wpm);
 	    	
 	    	g.setColor(Color.white);
 	    	g.fillRect(0, 0, width, height);
@@ -121,7 +121,7 @@ public class SpeedReader {
 			
 			WordGenerator w = new WordGenerator (filename);
 
-			demonstratePanelCenter (w, width, height, fontSize, wpm);
+			demonstratePanelOffset (w, width, height, fontSize, wpm);
 			
 			System.out.println ("Word Count.     " + w.getWordCount());
 			System.out.println ("Sentence Count. " + w.getSentenceCount());
