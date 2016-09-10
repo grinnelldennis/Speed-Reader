@@ -4,8 +4,8 @@ Directions: [Homework 2 Speed Reader Write-up](http://www.cs.grinnell.edu/~osera
 
 ## About
 
-1. *Name of homework*
-2. *Group members*
-3. *One-sentence description*
+1. *Homework 2: Speed Reader*
+2. *Shinda Jing & Dennis Chan*
+3. *Speed Reader*
 4. *Resources used*
 5. *Extra credit description*
