@@ -40,7 +40,7 @@ public class WordGenerator {
 		if ( this.hasNext() ) {
 			
 			String s = scan.next();
-			char c = s.charAt(s.length()-1);
+			char c = s.charAt(s.length() - 1);
 			this.wordCount ++;
 			
 			if ( c == '.' || c == '!' || c == '?'){	sentenceCount++; }
